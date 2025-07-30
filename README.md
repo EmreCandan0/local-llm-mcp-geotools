@@ -113,7 +113,10 @@ get_dem(filepath, x, y) → Returns DEM elevation at coordinate
 
 
 🧪 Example Prompt (CLI)
+
 ➤ Request: Crop the image from minx: 790000, miny: 4080000, maxx: 800000, maxy: 4090000
+
 🔧 crop_image tool is called...
+
 ✅ Result: static/outputs/myfile_cropped.png
 
