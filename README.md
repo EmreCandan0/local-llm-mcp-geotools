@@ -51,7 +51,7 @@ python mcp_server.py
 3. Launch the LLM Assistant (CLI)
 Make sure Ollama is running and the Phi3 model is pulled.
 ollama run phi3
-python assistant.py
+python client.py
 
 
 ------------------------------
@@ -81,7 +81,7 @@ MCP Server (via fastmcp)
 
 📁 Project Structure
 
-├── assistant.py           # Main CLI assistant (LLM + tool-calling)
+├── client.py           # Main CLI assistant (LLM + tool-calling)
 
 ├── mcp_server.py          # FastAPI MCP tool server with GDAL tools
 
