@@ -34,7 +34,8 @@ A local AI-powered geospatial analysis system that uses a **locally hosted LLM (
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/local-llm-mcp-geotools.git
+git clone https://github.com/emrecandan0/local-llm-mcp-geotools.git
+
 cd local-llm-mcp-geotools
 
 
@@ -92,7 +93,7 @@ get_dem(filepath, x, y) → Returns DEM elevation at coordinate
 
 
 🧪 Example Prompt (CLI)
-➤ Talebiniz: Crop the image from minx: 790000, miny: 4080000, maxx: 800000, maxy: 4090000
+➤ Request: Crop the image from minx: 790000, miny: 4080000, maxx: 800000, maxy: 4090000
 🔧 crop_image tool is called...
 ✅ Result: static/outputs/myfile_cropped.png
 
