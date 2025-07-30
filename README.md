@@ -75,10 +75,15 @@ MCP Server (via fastmcp)
 
 .
 ├── assistant.py           # Main CLI assistant (LLM + tool-calling)
+
 ├── mcp_server.py          # FastAPI MCP tool server with GDAL tools
+
 ├── functions/
+
 │   └── funcs_pool.py      # Helper functions: geometry, EPSG, metadata
+
 ├── static/outputs/        # Output folder for cropped PNGs
+
 └── temp/                  # Temporary files
 
 
