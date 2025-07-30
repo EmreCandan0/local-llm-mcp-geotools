@@ -33,24 +33,22 @@ A local AI-powered geospatial analysis system that uses a **locally hosted LLM (
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/yourusername/local-llm-mcp-geotools.git
 cd local-llm-mcp-geotools
+
+
 2. Start the MCP Server
 Make sure ports and paths are set correctly in the code.
-
-bash
-Copy
-Edit
 python mcp_server.py
+
+
 3. Launch the LLM Assistant (CLI)
 Make sure Ollama is running and the Phi3 model is pulled.
-
-bash
-Copy
-Edit
 ollama run phi3
 python assistant.py
+
+
 ⚙️ Requirements
 Python 3.9+
 
