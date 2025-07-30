@@ -9,7 +9,9 @@ A local AI-powered geospatial analysis system that uses a **locally hosted LLM (
 - NDVI (Normalized Difference Vegetation Index) computation  
 - DEM (Digital Elevation Model) value retrieval
 
----
+
+------------------------------
+
 
 ## 🔧 Key Features
 
@@ -19,7 +21,9 @@ A local AI-powered geospatial analysis system that uses a **locally hosted LLM (
 - 💬 **Natural language interface** — Users interact with simple text prompts  
 - 📂 **FastAPI + FastMCP** backend with GDAL for geospatial operations  
 
----
+
+------------------------------
+
 
 ## 🖼️ Example Use Cases
 
@@ -50,6 +54,8 @@ ollama run phi3
 python assistant.py
 
 
+------------------------------
+
 ⚙️ Requirements
 Python 3.9+
 
@@ -71,7 +77,7 @@ MCP Server (via fastmcp)
 
 
 
-
+------------------------------
 
 📁 Project Structure
 
@@ -87,13 +93,14 @@ MCP Server (via fastmcp)
 
 └── temp/                  # Temporary files
 
-
+------------------------------
 
 
 
 
 
 📦 Tools Registered in MCP
+
 analyze_tiff(filepath) → Returns metadata and extent
 
 crop_image(filepath, minx, miny, maxx, maxy) → Saves PNG crop
@@ -102,7 +109,7 @@ get_ndvi(filepath, x, y) → Returns NDVI at coordinate
 
 get_dem(filepath, x, y) → Returns DEM elevation at coordinate
 
-
+------------------------------
 
 
 🧪 Example Prompt (CLI)
