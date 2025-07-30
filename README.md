@@ -71,9 +71,10 @@ MCP Server (via fastmcp)
 
 
 
+
+
 📁 Project Structure
 
-.
 ├── assistant.py           # Main CLI assistant (LLM + tool-calling)
 
 ├── mcp_server.py          # FastAPI MCP tool server with GDAL tools
@@ -85,6 +86,8 @@ MCP Server (via fastmcp)
 ├── static/outputs/        # Output folder for cropped PNGs
 
 └── temp/                  # Temporary files
+
+
 
 
 
